@@ -1,0 +1,329 @@
+/*.header{
+    position: fixed;
+}*/
+.img{
+    height: 40px;
+    width: 45px;
+    margin-left: 10px;
+}
+li{
+    display: inline-block;
+    padding-left: 35px;
+    position: relative;
+    top: -50px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.alt{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: 1px;
+}
+.search{
+    border-radius: 15px;
+    height: 40px;
+    position: relative;
+    top: -100px;
+    left: 550px;
+    padding-left: 10px;
+}
+.search::placeholder{
+    font-style: italic;
+}
+.searchs{
+    margin-left: 500px;
+    position: relative;
+    top: -90px;
+}
+.search:focus{
+    border: 2px solid lightgreen;
+    outline: none;
+}
+.class{
+    height: 30px;
+    margin-left: 770px;
+    position: relative;
+    top: -130px;
+}
+.plus{
+    margin-left: 810px;
+    margin-top: -157px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.classess{
+    height: 30px;
+    margin-left: 865px;
+    position: relative;
+    top: -40px;
+}
+.pluss{
+    margin-left: 910px;
+    margin-top: -65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+    height: 30px;
+    margin-left: 985px;
+    position: relative;
+    top: -40px;
+}
+.bottom{
+    margin-left: 1030px;
+    margin-top: -65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    margin-left: 1140px;
+    position: relative;
+    top: -42px;
+    border-radius: 15px;
+    height: 35px;
+    width: 100px;
+    background-color: #04AA6D;
+    border: transparent;
+    color: #ffffff;
+}
+.btns{
+    margin-left: 1220px;
+    position: relative;
+    top: -77px;
+    border-radius: 15px;
+    height: 35px;
+    width: 100px;
+    background-color: #D9EEE1;
+    border: transparent;
+    z-index: -1;
+}
+.btn:hover{
+    background-color:  rgb(64, 139, 13);
+    cursor: pointer;
+}
+.html{
+    margin-left: -30px;
+    position: relative;
+    left: -30px;
+    padding-left: 50px;
+    top: -5px;
+    color: #ffffff;
+}
+.head{
+    background-color: black;
+    background-attachment: fixed;
+    top: 75px;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.aside{
+    background-color: #E7E9EB;
+    width: 20%;
+    height: 100vh;
+    /*position: relative;
+    top: 113px;
+    position: fixed;
+    bottom: 0px;*/
+    float: left;
+    overflow-y: scroll;
+    margin-top: -20px;
+    position: fixed;
+}
+.h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+.id{
+    position: relative;
+    top: -10px;
+    left: -60px;
+    line-height: 1.6em;
+}
+.section{
+    background-color: white;
+    width: 80%;
+    height: 90vh;
+    float: right;
+    margin-top: -20px;
+    position: relative;
+    left: 5px;
+}
+.tut{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 90px
+}
+.home{
+    background-color: #04AA6D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    height: 45px;
+    font-weight: bold;
+    width: 90px;
+    border: transparent;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.home:hover{
+    background-color: #058d5b;
+    cursor: pointer;
+}
+.next{
+    float: right;
+    margin-right: 30px;
+    background-color: #04AA6D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    height: 45px;
+    font-weight: bold;
+    width: 90px;
+    border: transparent;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.next:hover{
+    background-color: #058d5b;
+    cursor: pointer;
+}
+.hyper{
+    background-color: #D9EEE1;
+    height: 250px;
+}
+.pages{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page{
+    position: relative;
+    top: 60px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pagess{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.free{
+    background-color: #04AA6D;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    height: 40px;
+    border: transparent;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 5px;
+}
+.free:hover{
+    background-color: #058d5b;
+    cursor: pointer;
+}
+.easy{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.try{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.ids{
+    position: relative;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 30px;
+}
+.css{
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    line-height: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b{
+    background-color: #D9EEE1;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.b:hover{
+    cursor: pointer;
+    background-color: #04AA6D;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.test{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+.easys{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+.ab{
+    background-color: #2196F3;
+    height: 40px;
+    width: 250px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    border: transparent;
+    border-radius: 5px;
+}
+.ab:hover{
+    background-color: #2387da;
+    cursor: pointer;
+}
+.my{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+.track{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+}
+.log{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 30px;
+}
+.optional{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+}
+.good{
+    position: relative;
+    top: 40px;
+    width: 1000px;
+}
